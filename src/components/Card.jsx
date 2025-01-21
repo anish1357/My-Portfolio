@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Card = ({title,description,url,gitHubUrl}) => {
+    console.log(gitHubUrl);
   return (
     <motion.div
       initial={"hidden"}
@@ -20,7 +21,7 @@ const Card = ({title,description,url,gitHubUrl}) => {
         />
       </a>
       <div className="p-5 flex-grow">
-        <a href={url ?? gitHubUrl}>
+        <a href={ gitHubUrl}>
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {title}
           </h5>

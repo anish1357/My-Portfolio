@@ -25,7 +25,7 @@ const Projects = () => {
                 title={el.title}
                 description={el.description}
                 url={el.url}
-                github={el.gitHubUrl}
+                gitHubUrl={el.gitHubUrl}
                 key={index}
               />
             );
