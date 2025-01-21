@@ -31,9 +31,9 @@ jobs:
       - name: Install Netlify CLI
         run: npm install -g netlify-cli   
 
-      # Step 5: Login to Netlify
-      - name: Login to Netlify
-        run: netlify login
+      # # Step 5: Login to Netlify
+      # - name: Login to Netlify
+      #   run: netlify login
 
       # Step 6: Deploy to Netlify
       - name: Deploy to Netlify
