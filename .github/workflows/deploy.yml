@@ -20,11 +20,16 @@ jobs:
         with:
           node-version: 16  # Specify your Node.js version
 
+
       # Step 3: Install dependencies and build the project
       - name: Install and Build
         run: |
           npm install
           npm run build
+      
+      #Step 4: Install Netlify CLI
+      - name: Install Netlify CLI
+        run: npm install -g netlify-cli   
 
       # Step 4: Deploy to Netlify
       - name: Deploy to Netlify
