@@ -4,7 +4,7 @@ export const person = {
   location: "Bengaluru, India",
   email: "aniswargupta@gmail.com",
   resume:
-    "https://drive.google.com/file/d/1ckcBKbfStcgkNAjKCMA6t0CwJarPxuS7/view?usp=sharing",
+    "https://drive.google.com/file/d/1_smaM3Hdj_4aXKH95bN-4SVjZ0mb5txQ/view?usp=drivesdk",
   links: [
     { label: "LinkedIn", href: "https://www.linkedin.com/in/aniswar-gupta" },
     { label: "GitHub", href: "https://github.com/anish1357" },
