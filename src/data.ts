@@ -23,17 +23,25 @@ export const experience: Role[] = [
   {
     org: "Wells Fargo",
     title: "Senior Software Engineer, Home Lending",
-    when: "Now",
+    when: "Oct 2026 – Present",
     points: [
-      "Build and run event-driven microservices in Java, Spring Boot and Kafka for the Home Lending platform.",
+      "Build event-driven services in Java, Spring Boot and Kafka for the Home Lending platform.",
       "Ship production agentic AI: multi-agent workflows on Google ADK that hand off to human reviewers.",
-      "Promoted to Senior Software Engineer. Received the division's Spotlight Award and a Trailblazer Award nomination.",
+    ],
+  },
+  {
+    org: "Wells Fargo",
+    title: "Software Engineer, Home Lending",
+    when: "Jun 2025 – Sep 2026",
+    points: [
+      "Built and ran event-driven microservices in Java, Spring Boot and Kafka.",
+      "Received the division's Spotlight Award and a Trailblazer Award nomination.",
     ],
   },
   {
     org: "Deutsche Bank",
     title: "Software Engineer",
-    when: "Before",
+    when: "Jul 2023 – Jun 2025",
     points: [
       "Automated data retrieval workflows, cutting access time by 90%.",
       "Built tooling for secure monitoring and performance tuning across services.",

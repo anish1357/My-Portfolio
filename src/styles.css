@@ -363,7 +363,7 @@ p {
 
 .timeline > li {
   display: grid;
-  grid-template-columns: 6.5rem 1fr;
+  grid-template-columns: 11rem 1fr;
   gap: 16px;
   padding: 28px 0;
   border-top: 1px solid var(--rule);
@@ -376,6 +376,7 @@ p {
 .when {
   color: var(--slate);
   font-size: 1rem;
+  font-variant-numeric: tabular-nums;
   padding-top: 2px;
 }
 

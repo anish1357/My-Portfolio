@@ -76,7 +76,7 @@ export default function App() {
           <h2 id="exp-heading">Experience</h2>
           <ol className="timeline">
             {experience.map((r) => (
-              <li key={r.org}>
+              <li key={r.org + r.title}>
                 <span className="when">{r.when}</span>
                 <div className="role">
                   <h3>{r.org}</h3>
